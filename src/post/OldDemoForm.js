@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useFormInput } from "./useFormInput";
+import { useFormInput } from "../customHooks/useFormInput";
 
 export default function DemoForm({ add }) {
   const title = useFormInput("", "title");

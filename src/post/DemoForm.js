@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useFormInput } from "./useFormInput";
+import { useFormInput } from "../customHooks/useFormInput";
 import SubmitButton from "../components/SubmitButton";
 import Form from "../components/Form";
 import TextInput from "../components/TextInput";
